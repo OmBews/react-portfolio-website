@@ -83,3 +83,30 @@
   top: 0;
   right: 0;
 }
+
+@media screen and (max-width: 480px) {
+  .i {
+    flex-direction: column;
+  }
+
+  .i-left {
+    flex: 0.5;
+  }
+
+  .i-left-wrapper {
+    height: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .i-title-item {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .i-description {
+    display: none;
+  }
+}
