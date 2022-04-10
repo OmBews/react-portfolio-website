@@ -24,6 +24,18 @@
   background-color: white;
 }
 
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: darksalmon;
+}
+
+.green {
+  background-color: green;
+}
+
 .p-img {
   width: 100%;
 }
